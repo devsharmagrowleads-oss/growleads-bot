@@ -7,7 +7,7 @@ LinkedIn engagement automation tool. Follow these steps to get running on your m
 ## Requirements
 
 - **Windows 10/11** (also works on macOS/Linux)
-- **Node.js 18+** — Download from https://nodejs.org
+- **Node.js 20+** — Download from https://nodejs.org (Node.js 18 and 19 are not supported)
 - **A LinkedIn account** — logged in via Chrome
 
 ---
@@ -50,9 +50,9 @@ USER_NAME=YourActualName
 # REQUIRED: Your team name (ask your admin)
 TEAM=default
 
-# These connect your bot to the central dashboard — DO NOT change
-ADMIN_API_URL=https://growleads-admin.onrender.com
-ADMIN_API_KEY=growleads-secret-2026
+# These connect your bot to the central dashboard — ask your admin for the values
+ADMIN_API_URL=https://your-admin-server.example.com
+ADMIN_API_KEY=your-admin-api-key
 
 # Timezone — set to your actual timezone
 TIMEZONE=Asia/Kolkata

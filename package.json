@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Automated LinkedIn post reactions with human-like behavior",
   "main": "src/index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "setup": "node setup.js",
     "start": "node src/index.js",
